@@ -1,3 +1,31 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
 
+.header {
+  text-align: center;
+}
+.header h1 {
+  font-family: "Sofia", sans-serif;
+  background: rgb(182, 124, 83);
+  background: linear-gradient(4deg, rgb(182, 124, 83) 22%, rgb(158, 100, 62) 29%, rgb(124, 66, 32) 39%, rgb(168, 113, 16) 60%, rgb(161, 68, 31) 69%);
+  box-shadow: 0px 1px 8px 8px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 1px 8px 8px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 8px 8px rgba(0, 0, 0, 0.75);
+  color: whitesmoke;
+  font-size: 4rem;
+  margin: 0%;
+}
+.header__section {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+}
+.header hr {
+  border-style: solid;
+  margin-bottom: 2%;
+}
 
 /*# sourceMappingURL=estilo.css.map */
