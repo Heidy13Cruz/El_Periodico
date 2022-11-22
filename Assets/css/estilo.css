@@ -28,17 +28,18 @@
   margin-bottom: 2%;
 }
 
-.main {
-  position: absolute;
-}
-.main img {
+.main__section__noticias {
   width: 100%;
+  background-color: rgb(202, 143, 100);
+  display: flex;
 }
-.main p {
-  font-size: 50px;
+.main .noticias {
+  width: 96%;
+  margin-left: 2% .main .noticias __pagina;
+  margin-left-background-color: rgb(38, 143, 129) 0, 140, 255;
 }
-.main__section p {
-  font-size: 25px;
+.main .noticias h2 {
+  text-align: center;
 }
 
 /*# sourceMappingURL=estilo.css.map */

@@ -9,10 +9,10 @@
     h1{
         font-family: "Sofia", sans-serif;
         background: rgb(182,124,83);
-background: linear-gradient(4deg, rgba(182,124,83,1) 22%, rgba(158,100,62,1) 29%, rgba(124,66,32,1) 39%, rgba(168,113,16,1) 60%, rgba(161,68,31,1) 69%);
+        background: linear-gradient(4deg, rgba(182,124,83,1) 22%, rgba(158,100,62,1) 29%, rgba(124,66,32,1) 39%, rgba(168,113,16,1) 60%, rgba(161,68,31,1) 69%);
         box-shadow: 0px 1px 8px 8px rgba(0,0,0,0.75);
--webkit-box-shadow: 0px 1px 8px 8px rgba(0,0,0,0.75);
--moz-box-shadow: 0px 1px 8px 8px rgba(0,0,0,0.75);
+        -webkit-box-shadow: 0px 1px 8px 8px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 1px 8px 8px rgba(0,0,0,0.75);
         color: whitesmoke;
         font-size: 4rem;
         margin: 0%;
@@ -31,16 +31,27 @@ background: linear-gradient(4deg, rgba(182,124,83,1) 22%, rgba(158,100,62,1) 29%
 }
 
 .main{
-    position: absolute;
-    img{
-        width: 100%;
-    }
-    p{
-        font-size: 50px;
-    }
+
     &__section{
-        p{
-            font-size: 25px;
+        
+        &__noticias{
+            width: 100%;
+            background-color: rgb(202, 143, 100);
+            display: flex;
+
         }
     }
+    .noticias{
+        width: 96%;
+        margin-left: 2%
+        
+        &__pagina{
+            background-color: rgb(38, 143, 129)(0, 140, 255);
+        }
+
+        h2{
+            text-align: center;
+        }
+    }
+    
 }
