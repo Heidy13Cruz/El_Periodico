@@ -33,8 +33,10 @@
 .main{
 
     &__section{
+        position: absolute;
         
         &__noticias{
+  
             width: 100%;
             background-color: rgb(202, 143, 100);
             display: flex;
@@ -44,14 +46,15 @@
     .noticias{
         width: 96%;
         margin-left: 2%
-        
-        &__pagina{
-            background-color: rgb(38, 143, 129)(0, 140, 255);
-        }
 
         h2{
             text-align: center;
         }
     }
-    
+
+    .pagina{
+        width: 15%;
+        background-color: brown;
+
+    }
 }

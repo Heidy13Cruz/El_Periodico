@@ -28,6 +28,9 @@
   margin-bottom: 2%;
 }
 
+.main__section {
+  position: absolute;
+}
 .main__section__noticias {
   width: 100%;
   background-color: rgb(202, 143, 100);
@@ -35,11 +38,12 @@
 }
 .main .noticias {
   width: 96%;
-  margin-left: 2% .main .noticias __pagina;
-  margin-left-background-color: rgb(38, 143, 129) 0, 140, 255;
+  margin-left: 2% h2;
+  margin-left-text-align: center;
 }
-.main .noticias h2 {
-  text-align: center;
+.main .pagina {
+  width: 15%;
+  background-color: brown;
 }
 
 /*# sourceMappingURL=estilo.css.map */
