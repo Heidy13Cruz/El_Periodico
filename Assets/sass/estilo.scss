@@ -29,3 +29,18 @@ background: linear-gradient(4deg, rgba(182,124,83,1) 22%, rgba(158,100,62,1) 29%
         margin-bottom: 2%;
     }
 }
+
+.main{
+    position: absolute;
+    img{
+        width: 100%;
+    }
+    p{
+        font-size: 50px;
+    }
+    &__section{
+        p{
+            font-size: 25px;
+        }
+    }
+}
