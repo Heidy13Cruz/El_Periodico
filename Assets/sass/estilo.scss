@@ -33,10 +33,14 @@
 .main{
 
     &__section{
+        img{
+            width: 100%;
+        }
+        p{
+        }
         position: absolute;
         
         &__noticias{
-  
             width: 100%;
             background-color: rgb(202, 143, 100);
             display: flex;

@@ -31,6 +31,9 @@
 .main__section {
   position: absolute;
 }
+.main__section img {
+  width: 100%;
+}
 .main__section__noticias {
   width: 100%;
   background-color: rgb(202, 143, 100);
