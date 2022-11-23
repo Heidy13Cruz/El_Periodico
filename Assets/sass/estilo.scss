@@ -41,6 +41,19 @@
             left: 50%;
             transform: translate(-50%, -50%);
             z-index: 2;
+            width: 80%;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 3rem;
+            color:rgb(24, 11, 11);
+            font-weight: bold;
+            text-align: center;
+
+
+            & span{
+                background-color: rgb(112, 78, 78);
+                font-size: 22px;
+                padding: 5px;
+            }
         }
 
         img{
@@ -60,16 +73,21 @@
 }
 
 .noticias{
-    width: 96%;
     height: 9rem;
     margin-left: 2%;
     position: relative;
     z-index: 1;
-    
+    text-align: left;
+
+
+
     & span{
         position: absolute;
-        width: 20%;
-        background-color: brown;
+        width: 3rem;
+        padding: 5px;
+        margin-left: 4px;
+        background-color: rgb(112, 78, 78);
+        font-size: 12px;
     }
 
 
